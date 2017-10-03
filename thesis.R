@@ -67,6 +67,11 @@ ks.test(rcog$kills, pcog$kills)
 ks.test(pcog$kills, spcog$kills)
 ks.test(pcog$kills, qcog$kills)
 
+ks.test(pcog$score, bcog$score)
+ks.test(pcog$score, spcog$score)
+ks.test(pcog$score, qcog$score)
+ks.test(pcog$score, rcog$score)
+
 ks.test(bcog$surival_time, pcog$surival_time)
 ks.test(bcog$surival_time, rcog$surival_time)
 ks.test(bcog$surival_time, spcog$surival_time)
